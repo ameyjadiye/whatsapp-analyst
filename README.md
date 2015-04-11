@@ -24,7 +24,7 @@ sudo apt-get install r-base
 
 ```
 #First refine data with python.
-amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./data_curator.py
+amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./data_curator.py > __data_for_R
 
 #Then generate analytics.
 amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./generate_member_wise.R
