@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 from datetime import datetime
-
+import re
 file=open("input_data.txt","r")
 for line in file:
 	stripped = line.strip()
@@ -17,7 +17,9 @@ for line in file:
 				date = date[0]+", 2015,"+date[1]
 			try:
 				date_object = datetime.strptime(date.strip(), '%b %d, %Y, %I:%M %p')
-				print date.strip() + "^" + user.strip()
+				pattern=re.compile("[^\w']")
+				sentence = pattern.sub(' ', arr2[1].strip('\n'))
+				print "\""+date.strip()+"\"" + ","+"\"" + user.strip()+"\""+ "," +"\""+ sentence.strip().replace('\"','').replace('\'','')+"\""
 			except ValueError:
 				pass
 	 
