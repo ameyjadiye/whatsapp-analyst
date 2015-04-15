@@ -13,7 +13,16 @@ sudo apt-get update
 sudo apt-get install python2.7
 sudo apt-get install littler python-rpy
 sudo apt-get install r-base
+sudo apt-get install gfortran
+sudo apt-get install libcurl4-gnutls-dev
+
+# you have to download this packages from CRAN site 
+sudo R CMD INSTALL sentiment_0.2.tar.gz 
+sudo R CMD INSTALL Rstem_0.4-1.tar.gz
+
 ```
+
+
 
 ## Running the code
 
