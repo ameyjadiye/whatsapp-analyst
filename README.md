@@ -1,4 +1,4 @@
-# <img src="http://www.clohound.com/wp-content/uploads/2015/03/Whatsapp-logo.png" height="10%" width="10%"/> Whatsapp Analyst
+# Whatsapp Analyst <img src="http://www.file-extensions.org/imgs/company-logo/5104/whatsapp-inc.png" height="10%" width="10%"/>
 
 ## What is it?
 WhatsApp Analyst is for understanding many things with statistical way, it need your whatsapp exported group conversation file as input in returns it gives you the crazy analytics.
