@@ -27,9 +27,9 @@ sudo apt-get install gfortran
 sudo apt-get install libcurl4-gnutls-dev
 
 # you have to download this packages from CRAN site 
-sudo R CMD INSTALL sentiment_0.2.tar.gz 
+sudo R CMD INSTALL tm_0.6.tar.gz 
 sudo R CMD INSTALL Rstem_0.4-1.tar.gz
-
+sudo R CMD INSTALL sentiment_0.2.tar.gz
 ```
 
 
@@ -57,10 +57,10 @@ drwxr-xr-x 2 amey amey 4.0K Apr 12 12:44 output
 
 ```
 #First refine data with python.
-amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./data_curator.py > __data_for_R
+amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./src/data_curator.py > __data_for_R
 
 #Then generate analytics.
-amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./generate_member_wise.R
+amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./src/generate_member_wise.R
 ```
 
 ## Contributions 
