@@ -10,7 +10,7 @@ library(sentiment)
 
 whatsapp_chat_txt <- read.csv("__data_for_R",header=FALSE)$V3
 
-cat(whatsapp_chat_txt)
+#cat(whatsapp_chat_txt)
 
 whatsapp_chat_txt = gsub("@\\w+", "", whatsapp_chat_txt)
 whatsapp_chat_txt = gsub("[[:punct:]]", "", whatsapp_chat_txt)

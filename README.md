@@ -43,24 +43,21 @@ amey@XPS ~/work/repo_bank/whatsapp-analyst $ cp ~/Downloads/WhatsApp\ Chat\ with
 amey@XPS ~/work/repo_bank/whatsapp-analyst $ mv WhatsApp\ Chat\ with*.txt input_data.txt
 
 amey@XPS ~/work/repo_bank/whatsapp-analyst $ ls -lh
-total 2.4M
--rwxr--r-- 1 amey amey  526 Apr 11 18:08 data_curator.py
--rw-r--r-- 1 amey amey 388K Apr 12 12:49 __data_for_R
--rwxr--r-- 1 amey amey  326 Apr 12 12:47 generate_date_wise.R
--rwxr--r-- 1 amey amey  270 Apr 12 12:47 generate_member_wise.R
--rw-r----- 1 amey amey 968K Apr 12 12:54 input_data.txt
-drwxr-xr-x 2 amey amey 4.0K Apr 12 12:44 output
--rw-r--r-- 1 amey amey 1.1K Apr 12 12:51 README.md
+total 2.7M
+drwxr-xr-x 2 amey amey 4.0K Apr 20 22:17 bin
+-rw-r--r-- 1 amey amey 631K Apr 20 22:12 __data_for_R
+-rw-r----- 1 amey amey 968K Apr 12 19:35 input_data.txt
+-rw-r--r-- 1 amey amey 1.1K Apr 13 13:28 LICENSE.md
+drwxr-xr-x 2 amey amey 4.0K Apr 20 22:14 output
+-rw-r--r-- 1 amey amey 2.5K Apr 19 01:24 README.md
+drwxr-xr-x 2 amey amey 4.0K Apr 20 21:31 src
 
 ```
 + Finally fire the below commands.
 
 ```
-#First refine data with python.
-amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./src/data_curator.py > __data_for_R
+sh ./bin/runme.sh
 
-#Then generate analytics.
-amey@XPS ~/work/repo_bank/whatsapp-analyst $ ./src/generate_member_wise.R
 ```
 
 ## Contributions 
