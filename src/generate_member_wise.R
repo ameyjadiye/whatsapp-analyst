@@ -1,4 +1,4 @@
-#!/usr/bin/r
+#!/usr/bin/R
 library(ggplot2)
 mydata <- read.csv("__data_for_R",header=FALSE)
 
