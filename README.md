@@ -27,9 +27,15 @@ sudo apt-get install gfortran
 sudo apt-get install libcurl4-gnutls-dev
 
 # you have to download this packages from CRAN site 
-sudo R CMD INSTALL tm_0.6.tar.gz 
+
+sudo R CMD INSTALL NLP_0.1-9.tar.gz
 sudo R CMD INSTALL Rstem_0.4-1.tar.gz
 sudo R CMD INSTALL sentiment_0.2.tar.gz
+sudo R CMD INSTALL slam_0.1-40.tar.gz
+sudo R CMD INSTALL tm_0.6-2.tar.gz
+
+> install.packages("ggplot2")
+
 ```
 
 
